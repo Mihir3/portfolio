@@ -2,12 +2,12 @@ import { useEffect } from "react";
 
 function About() {
   useEffect(() => {
-    document.title = "quinn's life (〃 ω 〃)";
+    document.title = "mihir's life :3";
   }, []);
 
   return (
     <div>
-      <img src="/images/me.png" alt="it's me!" width="200" height="auto" />
+     
       <p>
         <nobr>─=≡Σ((( つ•̀ω•́)つLET’S GO!</nobr>
       </p>
@@ -15,15 +15,13 @@ function About() {
       <hr class="dashed" />
 
       <p>
-        hey hey hey! i'm someone who's a bit all over the place. i love all
-        things tech, art, fashion, walkable cities, food, and so much more.
+        i'm someone who's a bit all over the place. i love all
+        things tech, art, maps, fashion, walkable cities, food, and so much more.
         sometimes i feel like a sponge, going around and learning as much as i
         can from the amazing people around me &#129533;.
         <br />
         <br />
-        i'm a serial hobby hopper, i dabble in the arts, i stay fit, and i'm
-        currently on the quest for a perfect cup of coffee. my existence in so
-        many things really helped shape the learner that i am today, and the one
+        my existence in so many things really helped shape the learner that i am today, and the one
         i'll be tomorrow!
       </p>
 
@@ -33,24 +31,24 @@ function About() {
         <b>currently</b>
       </p>
       <p>
-        i'm a senior at{" "}
-        <a href="https://www.mcmaster.ca/" target="_blank" class="clickable">
-          McMaster University
+        i'm a CS graduate student at{" "}
+        <a href="https://illinois.edu/" target="_blank" class="clickable">
+          University of Illinois Urbana-Champaign
         </a>
-        , leading undergrad computing and engineering labs.
+        , with a focus on data science and machine learning.
         <br />
         <br />
-        i'm interested in accessibility, security, and all creative
-        intersections of tech and art &#127912;.
+        i'm interested in exploring data, accessibility, building things on the web, and all creative
+        intersections of tech and art.
         <br />
         <br />
         <div class="box">
-          i'm looking for 2024 swe new grad jobs based! shoot me an email at{" "}
-          <a href="mailto:quinnha.hello@gmail.com" class="clickable">
-            quinnha.hello@gmail.com
-          </a>
-          , and let's talk about why i'd be a good fit for your team!
-        </div>
+        i'm looking for 2024 summer internship positions in the US! shoot me an{" "}
+        <a href="mailto:mihirpamnani31@gmail.com" class="clickable">
+          email
+        </a>{" "}
+        and let's talk about why i'd be a good fit for your team.
+      </div>
       </p>
 
       <p> </p>
@@ -61,39 +59,42 @@ function About() {
       <p>did some internships:</p>
       <ul>
         <li>
-          developed a couple of accessibility tools for google (
+          built a quality assurance framework for components in CMS experiment with <a
+            href="https://www.tifr.res.in/"
+            class="clickable"
+            target="_blank"
+          >TIFR </a>
+          researchers (
           <a
-            href="https://workspace.google.com/intl/en_ca/"
+            href="https://home.cern/science/experiments/cms"
             class="clickable"
             target="_blank"
           >
-            google workspace
+            cms experiment at cern
           </a>
           )
         </li>
         <li>
-          worked on purolator's b2c shipping application as a pm (
-          <a
-            href="https://www.purolator.com/en/business-solutions/technology-solutions/track-manage-deliveries-receivers"
+          worked on language models to build a legal judgement prediction system to accept or reject petitions with  <a
+            href="https://nitkkr.ac.in/?author=180"
             class="clickable"
             target="_blank"
           >
-            PYW
+            Dr.Sarika Jain
           </a>
-          )
         </li>
         <li>
-          wrote some nasa code for the canadian space agency (
+          wrote some javascript and python code for the clients at Atto (
           <a
-            href="https://github.com/nasa/cFS"
+            href="https://portfolio.attoinfotech.com/?_gl=1*1hietzo*_ga*MTg3MTY2OTUwOC4xNjkzODM5NTg4*_ga_G413W9DMRS*MTY5MzgzOTU4OC4xLjEuMTY5MzgzOTY3NS4wLjAuMA.."
             class="clickable"
             target="_blank"
           >
-            cFS
+           Atto Infotech
           </a>
           )
         </li>
-        <li>
+        {/* <li>
           wrote test suites for Equitable Bank's android app (
           <a
             href="https://apps.apple.com/ca/app/eq-bank-mobile-banking/id1039432211"
@@ -103,36 +104,35 @@ function About() {
             EQ Bank Mobile Banking
           </a>
           )
-        </li>
+        </li> */}
       </ul>
       <p></p>
       <p>and did some clubs:</p>
       <ul>
         <li>
-          wrote some satellite code for{" "}
+          worked on some web dev and problem statements for Syrus Hackathon with {" "}
           <a
-            href="https://mcmasterneudose.ca/"
+            href="https://cmpn-codecell.github.io/Syrusnew.html"
             target="_blank"
             class="clickable"
           >
-            McMaster NEUDOSE
+            CodeCell - VESIT
           </a>
         </li>
         <li>
-          led the marketing team for the biggest design competition in 2021 with
-          the{" "}
+          did a lot of debates and MUNs while my time at {" "}
           <a
-            href="https://www.mcmasterdesignleague.com/"
+            href="https://www.instagram.com/veslit_circle/?hl=en"
             class="clickable"
             target="_blank"
           >
-            McMaster Design League
+            VES Literature Circle
           </a>
         </li>
         <li>
-          curated the attendee experience for{" "}
-          <a href="https://deltahacks.com/" target="_blank" class="clickable">
-            Deltahacks
+          did adobe design and wrote big newsletter articles for{" "}
+          <a href="https://vesit.ves.ac.in/monthlynewsletter" target="_blank" class="clickable">
+            VESIT Connect
           </a>
         </li>
       </ul>

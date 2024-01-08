@@ -2,23 +2,19 @@ import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 const hobbies = [
-  "playing my ukulele",
-  "writing poetry on my substack",
-  "brewing coffee with my v60",
+  "writing poetry on my tumblr",
+  "making some adrak chai",
   "cafe hopping around the city",
   "pretending to be busy",
-  "walking through cities",
-  "smashing birdies on the court",
-  "shredding a mountain on my snowboard",
-  "playing pump it up",
-  "cooking mapo tofu",
+  "walking through cities staring skylines",
+  "sitting in grass",
+  "eating some ramen",
   "walking through art galleries",
-  "drafting up new songs",
+  "listening to phoebe bridgers",
   "bar hopping through neighbourhoods",
-  "watching super smash bros melee",
-  "trying to get on top of another mountain",
-  "crafting a new spotify playlist",
-  "missing dynos at my local climbing gym",
+  "finding the best croissant to eat",
+  "trying to find the nearest beach",
+  "crafting a new playlist",
   "still breaking code lol",
 ];
 
@@ -52,7 +48,7 @@ function useWordCycle(words) {
 
 function Home() {
   useEffect(() => {
-    document.title = "quinn's home (≧∇≦)/";
+    document.title = "mihir's life :3";
   }, []);
 
   const [currentHobby, handleHobbyClick] = useWordCycle(hobbies);
@@ -60,7 +56,8 @@ function Home() {
 
   return (
     <div>
-      <h2>i'm quinn!</h2>
+     <img src="/images/me.jpeg" alt="it's me!" width="200" length="200" height="auto" />
+      <h2>i'm mihir!</h2>
       <p>
         welcome to my little{" "}
         <a class="clickable" id="corner" onClick={handleSpaceClick}>
@@ -69,9 +66,13 @@ function Home() {
         of the internet!
       </p>
       <p>
-        i'm a student based in Toronto &#127809; where i study software
-        engineering. when i'm not breaking code, i'm learning about
-        accessibility, reading manga, and{" "}
+        i'm currently based in Champaign, Illinois ; where i'm doing my Master's in computer
+        science at University of Illinois Urbana-Champaign. <br/><br/>
+        
+        previously, i graduated with a Bachelor's in Computer Engineering from the University of Mumbai, India.<br/><br/>
+        
+        when i'm not breaking code, i'm learning about
+        accessibility, guessing today's nyt pangram, and{" "}
         <a class="clickable" id="hobbies" onClick={handleHobbyClick}>
           {currentHobby}
         </a>
@@ -79,20 +80,20 @@ function Home() {
       </p>
       <p>
         reach out to me anytime at{" "}
-        <a href="mailto:quinnha.hello@gmail.com" class="clickable">
-          quinnha.hello@gmail.com
+        <a href="mailto:mihirpamnani31@gmail.com" class="clickable">
+        mihirpamnani31@gmail.com
         </a>
         ,
         <br />
-        or ask{" "}
+        {/* or ask{" "}
         <NavLink to="/quinn-ai" class="clickable">
           <u>my ai</u>
         </NavLink>{" "}
-        a question!
+        a question! */}
       </p>
       <div class="box">
-        i'm looking for 2024 new grad swe positions! shoot me an{" "}
-        <a href="mailto:quinnha.hello@gmail.com" class="clickable">
+        i'm looking for 2024 summer internship positions in the US! shoot me an{" "}
+        <a href="mailto:mihirpamnani31@gmail.com" class="clickable">
           email
         </a>{" "}
         if you (or your friends) are hiring &lt;3{" "}

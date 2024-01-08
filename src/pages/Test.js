@@ -4,7 +4,7 @@ import BlogNavBar from "../components/blog_navbar";
 
 function Test() {
   useEffect(() => {
-    document.title = "quinn's life (〃 ω 〃)";
+    document.title = "mihir's life (〃 ω 〃)";
   }, []);
 
   return (

@@ -3,102 +3,59 @@ import { NavLink } from "react-router-dom";
 
 function Projects() {
   useEffect(() => {
-    document.title = "quinn's projects ( ´ ▽ ` )b";
+    document.title = "mihir's projects ( ´ ▽ ` )b";
   }, []);
 
   return (
     <div>
       <p>
         some projects, find the rest on my{" "}
-        <a href="https://github.com/quinnha" class="clickable" target="_blank">
+        <a href="https://github.com/Mihir3" class="clickable" target="_blank">
           github
         </a>{" "}
         <nobr>(๑•̀ㅁ•́๑)✧</nobr>
       </p>
       <hr class="dashed" />
       <p>
-        <NavLink to="/quinn-ai" class="clickable">
-          <u>
-            <b>quinn ai</b>
-          </u>
-        </NavLink>{" "}
-        <br />
-        talk to an ai version of me (try it out)!
-      </p>
-      <p>
-        <NavLink to="/" class="clickable">
-          <u>
-            <b>personal website</b>
-          </u>
-        </NavLink>{" "}
-        <br />
-        what you're looking at right now :)
-      </p>
-      <p>
         <a
-          href="https://ridehome.netlify.app/"
+          href="https://docs.google.com/document/d/15C8I5cEp4FuZprw3DXxSgQZiRl-Llm6xjh7Oqz7nLAQ/edit?usp=sharing"
           class="clickable"
           target="_blank"
         >
-          <b>ridehome</b>
+          <b>CMS Detector Quality Assurance using M.L. Methods</b>
         </a>{" "}
         <br />
-        ride the subway, from home
+        worked with TIFR researchers to build a quality assurance framework for components such as PCBs in the CMS experiment at CERN
       </p>
+
+
       <p>
         <a
-          href="https://github.com/quinnha/protein-monster-visualizer"
+          href="https://drive.google.com/drive/folders/1PtRwapJTIENOd8fzDfQo0_fzLJQ5Ir_2"
           class="clickable"
           target="_blank"
         >
-          <b>pmv</b>
+          <b>KhakiMitra: Speech Emotion Recognition on Live Emergency Calls</b>
         </a>{" "}
-        <br />a subdirectory visualizer for a weird website
+        <br /> winning project at the National Smart India Hackathon 2022 to predict an emergency caller’s state of
+        influence for the State Police Department using call recordings and transcripts
       </p>
       <p>
+
+
         <a
-          href="https://github.com/quinnha/RBS-interpreter"
+          href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4111847"
           class="clickable"
           target="_blank"
         >
-          <b>red belly snake interpreter</b>
+          <b>DOT-HAZMAT (Detection Of Threat: Hazardous Materials)</b>
         </a>{" "}
         <br />
-        handmade python to assembly interpreter
+        built a customized CNN pipeline-based Android application using Pytorch and Tensorflow Lite for real-time detection of 13 HAZMAT signs at accident sites
       </p>
-      <p>
-        <a
-          href="https://github.com/quinnha/Unlucky-Bot"
-          class="clickable"
-          target="_blank"
-        >
-          <b>steel unlucky bot</b>
-        </a>{" "}
-        <br />
-        discord bot based off pro valorant player josh "steel" nissan
-      </p>
-      <p>
-        <a
-          href="https://github.com/quinnha/public-transit-network"
-          class="clickable"
-          target="_blank"
-        >
-          <b>public transit network calculator</b>
-        </a>{" "}
-        <br />
-        shortest path calculator between stops on public transit networks
-      </p>
-      <p>
-        <a
-          href="https://github.com/quinnha/Pic-A-Friend"
-          class="clickable"
-          target="_blank"
-        >
-          <b>pic a friend</b>
-        </a>{" "}
-        <br />
-        insert your missing friends into pictures with AR
-      </p>
+
+
+      
 
       <p>
         <i>(this page is a work in progress, pictures coming soon!)</i>
