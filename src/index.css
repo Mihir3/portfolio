@@ -1,5 +1,5 @@
 :root {
-  --background-primary: #E2FDFF;
+  --background-primary: #F4C2C2;
   --color-primary: black;
   --color-secondary: rgb(55, 55, 55);
   --color-dash: #99acad;
@@ -9,7 +9,7 @@
 }
 
 .sun {
-  --background-primary: #E2FDFF;
+  --background-primary: #F4C2C2;
   --color-primary: black;
   --color-secondary: rgb(66, 66, 66);
   --color-dash: #99acad;

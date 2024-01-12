@@ -56,7 +56,7 @@ function Home() {
 
   return (
     <div>
-     <img src="/images/me.jpeg" alt="it's me!" width="200" length="200" height="auto" />
+     <img src="/portfolio/images/me.jpeg" alt="it's me!" width="200" length="200" height="auto" />
       <h2>i'm mihir!</h2>
       <p>
         welcome to my little{" "}
@@ -66,8 +66,8 @@ function Home() {
         of the internet!
       </p>
       <p>
-        i'm currently based in Champaign, Illinois ; where i'm doing my Master's in computer
-        science at University of Illinois Urbana-Champaign. <br/><br/>
+        i'm currently based in Champaign, Illinois ; where i'm doing my Master's in Computer
+        Science at University of Illinois Urbana-Champaign. <br/><br/>
         
         previously, i graduated with a Bachelor's in Computer Engineering from the University of Mumbai, India.<br/><br/>
         
@@ -85,11 +85,6 @@ function Home() {
         </a>
         ,
         <br />
-        {/* or ask{" "}
-        <NavLink to="/quinn-ai" class="clickable">
-          <u>my ai</u>
-        </NavLink>{" "}
-        a question! */}
       </p>
       <div class="box">
         i'm looking for 2024 summer internship positions in the US! shoot me an{" "}

@@ -4,10 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
-import NYC from "./pages/blogs/NYC";
-import Google from "./pages/blogs/Google";
 import Log from "./pages/Log";
-import Blog from "./pages/blogs/Blogs";
 import "./index.css";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
@@ -33,7 +30,8 @@ function AppRoutes() {
 
           <div class="flex-container" id="content">
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/portfolio" exact element={<Home />} />
+              <Route path="/" exact element={<Home />} />
               <Route path="about" element={<About />} />
               <Route path="projects" element={<Projects />} />
               <Route path="resume" element={<Resume />} />
@@ -71,28 +69,7 @@ function LogRoutes() {
   );
 }
 
-function BlogRoutes() {
-  return (
-    <div>
-      <div class="flex-container" id="outer" />
-      <div class="flex-container" id="outer">
-        <div class="flex-container" id="inner"></div>
 
-        <div class="flex-container" id="blog">
-          <Routes>
-            <Route path="/" element={<Blog />} />
-            <Route path="nyc" element={<NYC />} />
-            <Route path="google" element={<Google />} />
-          </Routes>
-          <Footer />
-        </div>
-
-        <div class="flex-container" id="inner" />
-      </div>
-      <div class="flex-container" id="outer" />
-    </div>
-  );
-}
 
 function App() {
   window.dataLayer.push({
@@ -117,7 +94,6 @@ function App() {
       <Routes>
         <Route path="/*" element={<AppRoutes />} />
         <Route path="/log/*" element={<LogRoutes />} />
-        <Route path="/blogs/*" element={<BlogRoutes />} />
       </Routes>
     </div>
   );
