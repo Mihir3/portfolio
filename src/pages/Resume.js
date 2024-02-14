@@ -11,15 +11,15 @@ function Resume() {
       <hr class="dashed" />
 
       <iframe
-        src="https://drive.google.com/file/d/1nxLGP1aFs8xxtQ872iss8KGw_OqZgdyQz6BVOs7VQK4/preview"
+        src="https://drive.google.com/file/d/1jGCrgBSKTkXLqk4K4771P-42akR_eKdK/preview"
         width="640"
         height="825"
         allow="autoplay"
       ></iframe>
 
       <a
-        href="/portfolio/Resume_Mihir_Pamnani_2023.pdf"
-        download="Resume_Mihir_Pamnani_2023.pdf"
+        href="/portfolio/Resume_Mihir_Pamnani.pdf"
+        download="Resume_Mihir_Pamnani.pdf"
         class="clickable"
       >
         download
