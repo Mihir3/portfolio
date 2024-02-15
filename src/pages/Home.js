@@ -57,7 +57,7 @@ function Home() {
   return (
     <div>
      <img src="/portfolio/images/me.jpeg" alt="it's me!" width="200" length="200" height="auto" />
-      <h2>i'm mihir!</h2>
+      <h2>i'm mihir :)</h2>
       <p>
         welcome to my little{" "}
         <a class="clickable" id="corner" onClick={handleSpaceClick}>
@@ -79,11 +79,10 @@ function Home() {
         .
       </p>
       <p>
-        reach out to me anytime at{" "}
+        reach out to me anytime at{" "} 
         <a href="mailto:mihirpamnani31@gmail.com" class="clickable">
         mihirpamnani31@gmail.com
         </a>
-        ,
         <br />
       </p>
       <div class="box">
