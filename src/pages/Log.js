@@ -130,6 +130,33 @@ function Log() {
         (first big hike)
       </p>
       <p /> */}
+      <p></p>
+      <p>
+        <b> June 2024</b>
+        <br />- started my ML internship at Kohler Co. working on vision inspection
+        <br /> [music recc] 360 by charli xcx (it's brat summer :P)
+      </p>
+      <p>
+        <b> May 2024</b>
+        <br />- wrapped up my first semester with three amazing courses (re: first blog for more details!)
+        <br />- spent lots of time in parks watching squirrels and reading books
+        <br />- started cooking a lot : pasta, brownies and more
+      </p>
+      <p>
+        <b> April 2024</b>
+        <br />- saw the solar eclipse!
+        <br />- celebrated holi in the US for the first time
+        <br />- generated (deformed) cats for my vision class
+      </p>
+      <p>
+        <b> March 2024</b>
+        <br />- started working in the (x)Ability Design Lab at UIUC on a health agent with GPT for low-vision users
+        <br />[music recc] vintage red by jay jay pistolet
+      </p>
+      <p>
+        <b> February 2024</b>
+        <br />- became a regular library goer and geese watcher (they're so cute!)
+      </p>
       <p>
         <b> Jan 2024</b>
         <br />- exploring the snowy UIUC and excited for classes from 16th!
@@ -275,7 +302,7 @@ function Log() {
       </p>
       
       <p>
-        if you'd like to discuss any film/music, please feel free to write to me :)</p>
+        if you'd like to discuss anything ML/data or film/music, please feel free to write to me :)</p>
     </div>
   );
 }

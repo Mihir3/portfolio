@@ -56,7 +56,7 @@ function Home() {
 
   return (
     <div>
-     <img src="/portfolio/images/me.jpeg" alt="it's me!" width="200" length="200" height="auto" />
+     <img src="/portfolio/assets/me_two.jpg" alt="it's me!" width="200" length="200" height="auto" />
       <h2>i'm mihir :)</h2>
       <p>
         welcome to my little{" "}
@@ -66,7 +66,7 @@ function Home() {
         of the internet!
       </p>
       <p>
-        i'm currently based in Champaign, Illinois ; where i'm doing my Master's in Computer
+        i'm currently based in Champaign, Illinois ; where i'm working as a ML Intern at Kohler Co. (Summer '24) and doing my Master's in Computer
         Science at University of Illinois Urbana-Champaign. <br/><br/>
         
         previously, i graduated with a Bachelor's in Computer Engineering from the University of Mumbai, India.<br/><br/>
@@ -86,11 +86,11 @@ function Home() {
         <br />
       </p>
       <div class="box">
-        i'm looking for 2024 summer internship positions in the US! shoot me an{" "}
+        i'm looking for full-time ML/DS positions from May 2025 in the US! shoot me an{" "}
         <a href="mailto:mihirpamnani31@gmail.com" class="clickable">
           email
         </a>{" "}
-        if you (or your friends) are hiring &lt;3{" "}
+        if you (or your friends) are hiring &lt;3{" "} let's talk about why i'd be a good fit for your team.
       </div>
     </div>
   );

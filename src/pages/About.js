@@ -16,39 +16,35 @@ function About() {
 
       <p>
         i'm someone who's a bit all over the place. i love all
-        things tech, art, maps, fashion, walkable cities, food, and so much more.
+        things tech, art, maps, books, walkable cities, food, and so much more.
         sometimes i feel like a sponge, going around and learning as much as i
         can from the amazing people around me &#129533;.
         <br />
         <br />
-        my existence in so many things really helped shape the learner that i am today, and the one
+        my existence in so many things has really helped shape the learner that i am today, and the one
         i'll be tomorrow!
       </p>
 
       <p> </p>
 
       <p>
-        <b>currently</b>
+        <b>currently :</b>
       </p>
       <p>
-        i'm a CS graduate student at{" "}
+        i'm a ML Intern at {" "}
+        <a href="https://researchpark.illinois.edu/tenant_directory/kohlerinnovationcenter/" target="_blank" class="clickable">
+          Kohler Co.
+        </a> working on vision inspection and a CS graduate student at{" "}
         <a href="https://illinois.edu/" target="_blank" class="clickable">
           University of Illinois Urbana-Champaign
         </a>
         , with a focus on data science and machine learning.
         <br />
         <br />
-        i'm interested in exploring data, accessibility, building things on the web, and all creative
+        i'm interested in exploring data, accessibility with ML, building things on the web, and all creative
         intersections of tech and art.
         <br />
         <br />
-        <div class="box">
-        i'm looking for 2024 summer internship positions in the US! shoot me an{" "}
-        <a href="mailto:mihirpamnani31@gmail.com" class="clickable">
-          email
-        </a>{" "}
-        and let's talk about why i'd be a good fit for your team.
-      </div>
       </p>
 
       <p> </p>
@@ -58,6 +54,15 @@ function About() {
       </p>
       <p>did some internships:</p>
       <ul>
+      <li>
+          worked to built an health agent for low-vision users in the <a
+            href="https://xabilitylab.ischool.illinois.edu/"
+            class="clickable"
+            target="_blank"
+          >(x)Ability Design Lab </a>
+          at UIUC
+        </li>
+        <br />
         <li>
           built a quality assurance framework for components in CMS experiment with <a
             href="https://www.tifr.res.in/"
@@ -74,6 +79,7 @@ function About() {
           </a>
           )
         </li>
+        <br />
         <li>
           worked on language models to build a legal judgement prediction system to accept or reject petitions with  <a
             href="https://nitkkr.ac.in/?author=180"
@@ -83,6 +89,7 @@ function About() {
             Dr.Sarika Jain
           </a>
         </li>
+        <br />
         <li>
           wrote some javascript and python code for the clients at Atto (
           <a
@@ -94,6 +101,7 @@ function About() {
           </a>
           )
         </li>
+        <br />
         {/* <li>
           wrote test suites for Equitable Bank's android app (
           <a
@@ -119,6 +127,7 @@ function About() {
             CodeCell - VESIT
           </a>
         </li>
+        <br />
         <li>
           did a lot of debates and MUNs while my time at {" "}
           <a
@@ -129,6 +138,7 @@ function About() {
             VES Literature Circle
           </a>
         </li>
+        <br />
         <li>
           did adobe design and wrote big newsletter articles for{" "}
           <a href="https://vesit.ves.ac.in/monthlynewsletter" target="_blank" class="clickable">

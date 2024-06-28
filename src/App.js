@@ -5,10 +5,12 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Log from "./pages/Log";
+import Blogs from "./pages/Blogs";
 import "./index.css";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
 import TagManager from "react-gtm-module";
+import Spring24 from "./pages/blogs/spring24";
 
 const tagManagerArgs = {
   gtmId: "G-BR72D9JR60",
@@ -35,6 +37,7 @@ function AppRoutes() {
               <Route path="about" element={<About />} />
               <Route path="projects" element={<Projects />} />
               <Route path="resume" element={<Resume />} />
+              <Route path="blogs" element={<Blogs />} />
             </Routes>
 
             <Footer />
@@ -69,6 +72,27 @@ function LogRoutes() {
   );
 }
 
+function BlogRoutes() {
+  return (
+    <div>
+      <div class="flex-container" id="outer" />
+      <div class="flex-container" id="outer">
+        <div class="flex-container" id="inner"></div>
+
+        <div class="flex-container" id="blog">
+          <Routes>
+            <Route path="/" element={<Blogs />} />
+            <Route path="spring24" element={<Spring24 />} />
+          </Routes>
+          <Footer />
+        </div>
+
+        <div class="flex-container" id="inner" />
+      </div>
+      <div class="flex-container" id="outer" />
+    </div>
+  );
+}
 
 
 function App() {
@@ -94,6 +118,7 @@ function App() {
       <Routes>
         <Route path="/*" element={<AppRoutes />} />
         <Route path="/log/*" element={<LogRoutes />} />
+        <Route path="/blogs/*" element={<BlogRoutes />} />
       </Routes>
     </div>
   );
