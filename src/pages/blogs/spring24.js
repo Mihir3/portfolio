@@ -185,15 +185,15 @@ function Spring24() {
               </p>
               </div>
             <p>I thoroughly enjoyed this course—the lectures and assignments designed by Prof. Lazebnik were commendable and time-consuming. The class covered concepts dealing with images, starting right from linear classifiers with detailed derivations on one end of the spectrum to deep reinforcement learning by training our own Deep Q-learning model to play the Atari Breakout game (with image snapshots as an experience buffer for cumulative reward) towards the advanced sections of coursework.</p>
-            <p>We did assignments where we built a neural network from scratch, defining the fundamentals of forward and backward propagation (our own loss.backward() :P) in code, crafted an extensive assignment defining the crucial loss function for YOLO in the world of object detection, and, my favorite, generated (slightly deformed) cats with GANs!</p>
-            <p>As I was registered for the 4-credit version of the course, I had a project deliverable where we explored diffusion models. I spent days figuring out the math behind the reverse process in diffusion as modeled with an MDP and how we approximated the posterior distribution of pixels for generating quality images. It was a moment of awe reminiscent of my undergraduate days when I first understood the chain rule in neural networks with 3Blue1Brown.</p>
+            <p>We did assignments where we built a neural network from scratch, defining the fundamentals of forward and backward propagation (our own loss.backward() :P) in code, did an extensive assignment defining the crucial loss function for YOLO in the world of object detection, and, my favorite, generated (slightly deformed) cats with GANs!</p>
+            <p>As I was registered for the 4-credit version of the course, I had a project deliverable where we explored diffusion models. I remember spending days figuring out the math behind the reverse process in diffusion as modeled with an MDP and how we approximate the posterior distribution of pixels for generating quality images. It was alomst like the 'eureka' moment, I had back during my undergraduate days when I first understood that it was chain rule at the core of back propogation in neural networks with 3Blue1Brown.</p>
             <p>My <a
           href="https://drive.google.com/file/d/1sesTVjuEYO-ZYWffbzBzJAwAfoDUthoK/view?usp=sharing"
           class="clickable"
           target="_blank"
         >
           <b>final project exploring diffusion</b>
-        </a>{" "} with three teammates involved fine-tuning latent diffusion models, writing diffusion from scratch in PyTorch, and testing out Progressive Distillation for fine-tuned diffusion models. This course was an eye-opener, equipping me with a solid understanding of GANs, diffusion models, instance segmentation, object detection, and more. I am eager to see how machine-generated images can morph our world.</p>
+        </a>{" "} with three teammates involved fine-tuning latent diffusion models, writing diffusion from scratch in PyTorch, and testing out Progressive Distillation for fine-tuned diffusion models. This course was an eye-opener, equipping me with a solid understanding of GANs, diffusion models, instance segmentation, object detection, and so much more. I am eager to see how machine-generated images can morph our world.</p>
         </div>
 
         <div class="course">
